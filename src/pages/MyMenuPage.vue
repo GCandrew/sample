@@ -15,42 +15,61 @@
       </div>
 
      <div class="box">
-       <img src="https://image.istarbucks.co.kr/upload/store/skuimg/2021/04/[9200000002487]_20210426091745467.jpg"></img>
+       <img src="https://image.istarbucks.co.kr/upload/store/skuimg/2021/04/[9200000002487]_20210426091745467.jpg"
+        @click="$router.push('/NitroVanillaCream')" 
+       class="clickable"></img>
        <div class="mtext1"> 나이트로 바닐라 크림 </div>
      </div>
 
      <div class="box">
-       <img src="https://image.istarbucks.co.kr/upload/store/skuimg/2021/04/[9200000000479]_20210426091843897.jpg"></img>
+       <img src="https://image.istarbucks.co.kr/upload/store/skuimg/2021/04/[9200000000479]_20210426091843897.jpg"
+       @click="$router.push('/NitroColdBrew')"
+       class="clickable"></img>
        <div class="mtext1"> 나이트로 콜드 브루 </div>
      </div>
 
      <div class="box">
-       <img src="https://image.istarbucks.co.kr/upload/store/skuimg/2021/04/[9200000002081]_20210415133656839.jpg"></img>
+       <img src="https://image.istarbucks.co.kr/upload/store/skuimg/2021/04/[9200000002081]_20210415133656839.jpg"
+       @click="$router.push('/DolceColdBrew')"
+       class="clickable"></img>
        <div class="mtext1"> 돌체 콜드 브루 </div>
      </div>
 
      <div class="box">
-       <img src="https://image.istarbucks.co.kr/upload/store/skuimg/2021/04/[9200000002081]_20210415133656839.jpg"></img>
+       <img src="https://image.istarbucks.co.kr/upload/store/skuimg/2021/02/[9200000002407]_20210225095106743.jpg"
+       @click="$router.push('/ReserveNitro')"
+       class="clickable"></img>
        <div class="mtext1"> 리저브 나이트로 </div>
      </div>
 
      <div class="box">
-       <img src="https://image.istarbucks.co.kr/upload/store/skuimg/2021/04/[9200000002081]_20210415133656839.jpg"></img>
+       <img src="https://image.istarbucks.co.kr/upload/store/skuimg/2024/03/[9200000002093]_20240318144604476.jpg"
+       @click="$router.push('/ReserveColdBrew')"
+       class="clickable"></img>
        <div class="mtext1"> 리저브 콜드 브루 </div>
      </div>
 
      <div class="box">
-       <img src="https://image.istarbucks.co.kr/upload/store/skuimg/2024/05/[9200000005282]_20240509131200017.jpg"></img>
+       <img src="https://image.istarbucks.co.kr/upload/store/skuimg/2024/05/[9200000005282]_20240509131200017.jpg"
+       @click="$router.push('/RiceCreamColdBrew')"
+       class="clickable"
+       ></img>
        <div class="mtext1"> 막걸리향 크림 콜드 브루 </div>
      </div>
 
      <div class="box">
-       <img src="https://image.istarbucks.co.kr/upload/store/skuimg/2022/10/[9200000004312]_20221005145029134.jpg"></img>
+       <img src="https://image.istarbucks.co.kr/upload/store/skuimg/2022/10/[9200000004312]_20221005145029134.jpg"
+       @click="$router.push('/MintColdBrew')"
+       class="clickable"
+       ></img>
        <div class="mtext1"> 민트 콜드 브루 </div>
      </div>
 
      <div class="box">
-       <img src="https://image.istarbucks.co.kr/upload/store/skuimg/2021/04/[9200000000487]_20210430112319040.jpg"></img>
+       <img src="https://image.istarbucks.co.kr/upload/store/skuimg/2021/04/[9200000000487]_20210430112319040.jpg"
+       @click="$router.push('/VanillaCreamColdBrew')"
+       class="clickable"
+       ></img>
        <div class="mtext1"> 바닐라 크림 콜드 브루 </div>
      </div>
 

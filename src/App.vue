@@ -6,11 +6,10 @@ import TheWelcome from './components/TheWelcome.vue'
 
 <template>
   <header>
+   
 <div>
-  <nav class="text-nowrap">
-    <RouterLink to="/">전체 메뉴</RouterLink>
-    <RouterLink to="/detail">디테일 메뉴</RouterLink>
-  </nav>
+
+
 </div>
   </header>
 <main class="main1">
@@ -23,6 +22,15 @@ import TheWelcome from './components/TheWelcome.vue'
 
 
 <style>
+.breadcrumb {
+  font-size: 1rem;
+  margin-bottom: 10px;
+  position: absolute;
+  top: 0px;
+  right: 300px; /* Move the breadcrumb navigation to the right */
+  z-index: 20;
+}
+
 .text-nowrap{
   white-space: nowrap;
 }
@@ -39,8 +47,8 @@ import TheWelcome from './components/TheWelcome.vue'
   display: inline-block;
 }
 .main1 {
-  width: 1600px;
-  height: 600px;
+  width: 1400px;
+  height: 1000px;
   overflow-y: scroll;
   border: 1px solid #ddd;
 
